@@ -4,9 +4,9 @@
   "description": "",
   "main": "./src/server.js",
   "scripts": {
-    "build": "tsc",
+    "build": "npx tsc",
     "dev": "tsnd --exit-child src/server.ts",
-    "start": "tsc src/server.ts"
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",
